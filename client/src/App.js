@@ -36,7 +36,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <PlayerList />
+        <PlayerList players={this.state.players} />
       </div>
     );
   }
